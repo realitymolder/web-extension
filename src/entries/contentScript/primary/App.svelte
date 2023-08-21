@@ -1,6 +1,6 @@
 <script lang="ts">
+	import '~/app.postcss';
 	import logo from '~/assets/logo.svg';
-	import '../../../app.postcss';
 	const logoImageUrl = new URL(logo, import.meta.url).href;
 </script>
 
